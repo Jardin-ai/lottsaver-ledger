@@ -1,0 +1,471 @@
+{
+  "version": "lottsaver-ledger-v1",
+  "weeklyBudget": {
+    "USD": 100,
+    "AUD": 150,
+    "GBP": 80,
+    "EUR": 90,
+    "CAD": 130,
+    "JPY": 15000,
+    "KRW": 130000,
+    "TWD": 3200,
+    "SGD": 130,
+    "BRL": 500
+  },
+  "games": {
+    "powerball": {
+      "name": "Powerball",
+      "country": "AU",
+      "currency": "AUD",
+      "ticketCost": 1.58,
+      "drawsPerWeek": 1,
+      "lines": 94,
+      "pools": [
+        {
+          "key": "main",
+          "count": 7,
+          "min": 1,
+          "max": 35
+        },
+        {
+          "key": "pb",
+          "count": 1,
+          "min": 1,
+          "max": 20
+        }
+      ]
+    },
+    "oz-lotto": {
+      "name": "Oz Lotto",
+      "country": "AU",
+      "currency": "AUD",
+      "ticketCost": 1.46,
+      "drawsPerWeek": 1,
+      "lines": 102,
+      "pools": [
+        {
+          "key": "main",
+          "count": 7,
+          "min": 1,
+          "max": 47
+        }
+      ]
+    },
+    "saturday-lotto": {
+      "name": "Saturday Lotto",
+      "country": "AU",
+      "currency": "AUD",
+      "ticketCost": 0.96,
+      "drawsPerWeek": 1,
+      "lines": 156,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 45
+        }
+      ]
+    },
+    "weekday-windfall": {
+      "name": "Weekday Windfall",
+      "country": "AU",
+      "currency": "AUD",
+      "ticketCost": 0.67,
+      "drawsPerWeek": 3,
+      "lines": 74,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 45
+        }
+      ]
+    },
+    "set-for-life": {
+      "name": "Set for Life",
+      "country": "AU",
+      "currency": "AUD",
+      "ticketCost": 0.786,
+      "drawsPerWeek": 7,
+      "lines": 27,
+      "pools": [
+        {
+          "key": "main",
+          "count": 7,
+          "min": 1,
+          "max": 44
+        }
+      ]
+    },
+    "gb.lotto": {
+      "name": "Lotto",
+      "country": "GB",
+      "currency": "GBP",
+      "ticketCost": 2,
+      "drawsPerWeek": 2,
+      "lines": 20,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 59
+        }
+      ]
+    },
+    "gb.euromillions": {
+      "name": "EuroMillions",
+      "country": "GB",
+      "currency": "GBP",
+      "ticketCost": 2.5,
+      "drawsPerWeek": 2,
+      "lines": 16,
+      "pools": [
+        {
+          "key": "main",
+          "count": 5,
+          "min": 1,
+          "max": 50
+        },
+        {
+          "key": "stars",
+          "count": 2,
+          "min": 1,
+          "max": 12
+        }
+      ]
+    },
+    "gb.thunderball": {
+      "name": "Thunderball",
+      "country": "GB",
+      "currency": "GBP",
+      "ticketCost": 1,
+      "drawsPerWeek": 4,
+      "lines": 20,
+      "pools": [
+        {
+          "key": "main",
+          "count": 5,
+          "min": 1,
+          "max": 39
+        },
+        {
+          "key": "thunderball",
+          "count": 1,
+          "min": 1,
+          "max": 14
+        }
+      ]
+    },
+    "us.powerball": {
+      "name": "Powerball",
+      "country": "US",
+      "currency": "USD",
+      "ticketCost": 2,
+      "drawsPerWeek": 3,
+      "lines": 16,
+      "pools": [
+        {
+          "key": "main",
+          "count": 5,
+          "min": 1,
+          "max": 69
+        },
+        {
+          "key": "pb",
+          "count": 1,
+          "min": 1,
+          "max": 26
+        }
+      ]
+    },
+    "us.mega-millions": {
+      "name": "Mega Millions",
+      "country": "US",
+      "currency": "USD",
+      "ticketCost": 5,
+      "drawsPerWeek": 2,
+      "lines": 10,
+      "pools": [
+        {
+          "key": "main",
+          "count": 5,
+          "min": 1,
+          "max": 70
+        },
+        {
+          "key": "mb",
+          "count": 1,
+          "min": 1,
+          "max": 24
+        }
+      ]
+    },
+    "de.lotto-6aus49": {
+      "name": "LOTTO 6aus49",
+      "country": "DE",
+      "currency": "EUR",
+      "ticketCost": 1.2,
+      "drawsPerWeek": 2,
+      "lines": 37,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 49
+        },
+        {
+          "key": "sz",
+          "count": 1,
+          "min": 0,
+          "max": 9
+        }
+      ]
+    },
+    "de.eurojackpot": {
+      "name": "Eurojackpot",
+      "country": "DE",
+      "currency": "EUR",
+      "ticketCost": 2,
+      "drawsPerWeek": 2,
+      "lines": 22,
+      "pools": [
+        {
+          "key": "main",
+          "count": 5,
+          "min": 1,
+          "max": 50
+        },
+        {
+          "key": "euro",
+          "count": 2,
+          "min": 1,
+          "max": 12
+        }
+      ]
+    },
+    "fr.loto": {
+      "name": "Loto",
+      "country": "FR",
+      "currency": "EUR",
+      "ticketCost": 2.2,
+      "drawsPerWeek": 3,
+      "lines": 13,
+      "pools": [
+        {
+          "key": "main",
+          "count": 5,
+          "min": 1,
+          "max": 49
+        },
+        {
+          "key": "chance",
+          "count": 1,
+          "min": 1,
+          "max": 10
+        }
+      ]
+    },
+    "ie.lotto": {
+      "name": "Lotto",
+      "country": "IE",
+      "currency": "EUR",
+      "ticketCost": 2,
+      "drawsPerWeek": 3,
+      "lines": 15,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 45
+        }
+      ]
+    },
+    "ca.lotto-max": {
+      "name": "Lotto Max",
+      "country": "CA",
+      "currency": "CAD",
+      "ticketCost": 6,
+      "drawsPerWeek": 2,
+      "lines": 10,
+      "pools": [
+        {
+          "key": "main",
+          "count": 7,
+          "min": 1,
+          "max": 52
+        }
+      ]
+    },
+    "ca.lotto649": {
+      "name": "Lotto 6/49",
+      "country": "CA",
+      "currency": "CAD",
+      "ticketCost": 3,
+      "drawsPerWeek": 2,
+      "lines": 21,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 49
+        }
+      ]
+    },
+    "jp.loto6": {
+      "name": "Loto 6",
+      "country": "JP",
+      "currency": "JPY",
+      "ticketCost": 200,
+      "drawsPerWeek": 2,
+      "lines": 37,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 43
+        }
+      ]
+    },
+    "jp.loto7": {
+      "name": "Loto 7",
+      "country": "JP",
+      "currency": "JPY",
+      "ticketCost": 300,
+      "drawsPerWeek": 1,
+      "lines": 50,
+      "pools": [
+        {
+          "key": "main",
+          "count": 7,
+          "min": 1,
+          "max": 37
+        }
+      ]
+    },
+    "jp.mini-loto": {
+      "name": "Mini Loto",
+      "country": "JP",
+      "currency": "JPY",
+      "ticketCost": 200,
+      "drawsPerWeek": 1,
+      "lines": 75,
+      "pools": [
+        {
+          "key": "main",
+          "count": 5,
+          "min": 1,
+          "max": 31
+        }
+      ]
+    },
+    "kr.lotto645": {
+      "name": "Lotto 6/45",
+      "country": "KR",
+      "currency": "KRW",
+      "ticketCost": 1000,
+      "drawsPerWeek": 1,
+      "lines": 130,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 45
+        }
+      ]
+    },
+    "tw.lotto649": {
+      "name": "Lotto 6/49",
+      "country": "TW",
+      "currency": "TWD",
+      "ticketCost": 50,
+      "drawsPerWeek": 2,
+      "lines": 32,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 49
+        }
+      ]
+    },
+    "tw.super-lotto638": {
+      "name": "Super Lotto 638",
+      "country": "TW",
+      "currency": "TWD",
+      "ticketCost": 100,
+      "drawsPerWeek": 2,
+      "lines": 16,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 38
+        },
+        {
+          "key": "second",
+          "count": 1,
+          "min": 1,
+          "max": 8
+        }
+      ]
+    },
+    "tw.daily539": {
+      "name": "Daily Cash 539",
+      "country": "TW",
+      "currency": "TWD",
+      "ticketCost": 50,
+      "drawsPerWeek": 6,
+      "lines": 10,
+      "pools": [
+        {
+          "key": "main",
+          "count": 5,
+          "min": 1,
+          "max": 39
+        }
+      ]
+    },
+    "sg.toto": {
+      "name": "TOTO",
+      "country": "SG",
+      "currency": "SGD",
+      "ticketCost": 1,
+      "drawsPerWeek": 2,
+      "lines": 65,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 49
+        }
+      ]
+    },
+    "br.mega-sena": {
+      "name": "Mega-Sena",
+      "country": "BR",
+      "currency": "BRL",
+      "ticketCost": 6,
+      "drawsPerWeek": 3,
+      "lines": 27,
+      "pools": [
+        {
+          "key": "main",
+          "count": 6,
+          "min": 1,
+          "max": 60
+        }
+      ]
+    }
+  }
+}
